@@ -1,0 +1,29 @@
+input[type="text"] {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#suggestions-list {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions-list li:hover {
+    background: #ddd;
+}
